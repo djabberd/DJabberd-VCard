@@ -3,6 +3,8 @@ use strict;
 use base 'DJabberd::Plugin';
 use warnings;
 
+our $VERSION = '0.50'; 
+
 our $logger = DJabberd::Log->get_logger();
 
 # this spec implements the jep--0054 vcard spec using an SQLite store
@@ -105,3 +107,10 @@ sub set_vcard {
 
 
 1;
+
+__END__
+
+=head1 NAME
+
+DJabberd::Plugin::VCard - VCard storage plugin
+
