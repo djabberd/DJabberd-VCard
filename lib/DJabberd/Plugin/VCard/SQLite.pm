@@ -1,4 +1,3 @@
-
 package DJabberd::Plugin::VCard::SQLite;
 use strict;
 use base 'DJabberd::Plugin::VCard';
@@ -68,6 +67,5 @@ sub check_install_schema {
     }
 
 }
-
 
 1;
