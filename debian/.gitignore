@@ -1,0 +1,6 @@
+tmp/
+libdjabberd-plugin-vcard-perl/
+*.debhelper
+*.debhelper.log
+*.substvars
+files
